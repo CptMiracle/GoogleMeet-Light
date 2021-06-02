@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+  
+    "name": "Google-Meet-Lightmode",
+    "description": "Lightmode for Google Meets",
+    "version": "1.0.0",
+    "icons": { "128": "icon_128.png" },
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "css": ["style.css"],
+            "js":["script.js"]
+        }
+    ],
+    "permissions": ["activeTab"]
+  }
