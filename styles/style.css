@@ -4,16 +4,15 @@
 .KWIIWd {
   background: #ffffff !important;
 }
-
+/* Bottom bar */
 .xPh1xb.P9KVBf {
-  background: #969696 !important;
+  background: #3c4043 !important; 
 }
-
-/* Box for Join now
-/* .GN4RFc { 
+/*Tiles*/
+.zWfAib:not(.zTETae):not(.n9oEIb)>.Zf0RDc {
+  background: #808080 !important;
+}
+/* Box
+.GN4RFc { 
   background: #e0e0e0 !important;
 } */
-
-.zWfAib:not(.zTETae):not(.n9oEIb)>.Zf0RDc {
-  background: #999999 !important;
-}
