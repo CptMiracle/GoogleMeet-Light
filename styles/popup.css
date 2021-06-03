@@ -1,78 +1,115 @@
-
-html, body {
-font-family: "Open Sans", sans-serif;
-font-size: 14px;
-margin: 0;
-min-height: 180px;
-padding: 0;
-width: 384px;
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  min-height: 180px;
+  padding: 0;
+  width: 384px;
 }
+
 h1 {
-    font-family: "Menlo", monospace;
-    font-size: 22px;
-    font-weight: 400;
-    margin: 0;
-    color: #2f5876;
-  }
+  font-family: "Menlo", monospace;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+  color: #2f5876;
+}
 
-  a:link,
-  a:visited {
-    color: #000000;
-    outline: 0;
-    text-decoration: none;
-  }
+a:link,
+a:visited {
+  color: #000000;
+  outline: 0;
+  text-decoration: none;
+}
 
-  img {
-    width: 30px;
-  }
+img {
+  width: 30px;
+}
 
-  .modal-header {
-    align-items: center;
-    border-bottom: 0.5px solid #dadada;
-  }
+.modal-header {
+  align-items: center;
+  border-bottom: 0.5px solid #dadada;
+}
 
-  .modal-content {
-    padding: 0 22px;
-  }
+.modal-content {
+  padding: 0 22px;
+}
 
-  .modal-icons {
-    border-top: 0.5px solid #dadada;
-    height: 50px;
-    width: 100%;
-  }
+.modal-icons {
+  border-top: 0.5px solid #dadada;
+  height: 50px;
+  width: 100%;
+}
 
-  .logo {
-    padding: 16px;
-  }
+.logo {
+  padding: 16px;
+}
 
-  .logo-icon {
-    vertical-align: text-bottom;
-    margin-right: 12px;
-  }
+.logo-icon {
+  vertical-align: text-bottom;
+  margin-right: 12px;
+}
 
-  .version {
-    color: #444;
-    font-size: 18px;
-  }
+.version {
+  color: #444;
+  font-size: 18px;
+}
 
-  .flex-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 22px;
-  }
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 22px;
+}
 
-  .flex {
-    opacity: 1;
-    transition: opacity 0.2s ease-in-out;
-    width: 120px;
-  }
 
-  .flex:hover {
-    opacity: 0.4;
-  }
+.button-white {
+  height: 30px;
+  width: 30px;
+  outline: auto;
+  margin: 10px;
+  background-color: white;
+  border: black;
+  border-radius: 5px;
+}
 
-  .flex .fa {
-    font-size: 40px;
-    color: #2f5876;
-  }
+.button-blue {
+  height: 30px;
+  width: 30px;
+  outline: auto;
+  margin: 10px;
+  background-color: lightskyblue;
+  border: black;
+  border-radius: 5px;
+}
+
+.button-purple {
+  height: 30px;
+  width: 30px;
+  outline: auto;
+  margin: 10px;
+  background-color: purple;
+  border: black;
+  border-radius: 5px;
+}
+
+.button-orange {
+  height: 30px;
+  width: 30px;
+  outline: auto;
+  margin: 10px;
+  background-color: orange;
+  border: black;
+  border-radius: 5px;
+}
+
+.button-black {
+  height: 30px;
+  width: 30px;
+  outline: auto;
+  margin: 10px;
+  background-color: black;
+  border: black;
+  border-radius: 5px;
+}
 
