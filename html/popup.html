@@ -2,47 +2,56 @@
 <html>
   <head>
     <title>Google Meet Light</title>
-    <link rel="stylesheet" type="text/css" href="/styles/popup.css" />
+    <meta charset="UTF-8" />
+    
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="/styles/popup.css" />
     
-    <script src="popup.js"></script>
   </head>
 
   <body>
     <div class="modal-header">
       <h1 class="logo">
-        <img class="logo-icon" src="/images/logo-icon.png"/>Google Meet Themes
+        <img class="logo-icon" src="/images/logo-icon.png" alt="logo" />Google
+        Meet Themes
         <span class="version">(1.0.0)</span>
       </h1>
     </div>
     <div class="modal-content">
-      <p>Choose a theme <br>(refresh your Google Meet after making changes).</p>
+      <p>
+        Choose a theme <br />(refresh your Google Meet after making changes).
+      </p>
     </div>
     <div class="modal-icons">
       <div class="flex-container">
         <div class="flex">
-          <button class="button-white"></button>
+          <button class="button-white" id="button"></button>
         </div>
         <div class="flex">
-          <button class="button-blue"></button>
+          <button class="button-blue" id="blue"></button>
         </div>
         <div class="flex">
-          <button class="button-purple"></button>
+          <button class="button-purple" id="purple"></button>
         </div>
         <div class="flex">
-          <button class="button-orange"></button>
+          <button class="button-orange" id="orange"></button>
         </div>
         <div class="flex">
-          <button class="button-black"></button>
+          <button class="button-green" id="green"></button>
         </div>
       </div>
+      <div class="change-text" id="change"> has text been changed? </div>
     </div>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>

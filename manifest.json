@@ -8,14 +8,17 @@
     "content_scripts": [
         {
             "matches": ["*://meet.google.com/*"],
-            "css": ["styles/style.css"],
-            "js":["content_scripts.js"]
+            "css": ["styles/style.css"]
         }
     ],
+    
 
     "browser_action": {
       "default_popup": "html/popup.html"
     },
 
-    "permissions": ["activeTab"]
+    "permissions": [
+      "activeTab",
+      "storage"
+    ]
   }

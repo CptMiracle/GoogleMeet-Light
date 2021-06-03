@@ -62,10 +62,12 @@ img {
   padding: 10px 22px;
 }
 
-
-.button-white {
+button {
   height: 30px;
   width: 30px;
+}
+
+.button-white {
   outline: auto;
   margin: 10px;
   background-color: white;
@@ -74,8 +76,6 @@ img {
 }
 
 .button-blue {
-  height: 30px;
-  width: 30px;
   outline: auto;
   margin: 10px;
   background-color: lightskyblue;
@@ -84,8 +84,6 @@ img {
 }
 
 .button-purple {
-  height: 30px;
-  width: 30px;
   outline: auto;
   margin: 10px;
   background-color: purple;
@@ -94,8 +92,6 @@ img {
 }
 
 .button-orange {
-  height: 30px;
-  width: 30px;
   outline: auto;
   margin: 10px;
   background-color: orange;
@@ -103,12 +99,10 @@ img {
   border-radius: 5px;
 }
 
-.button-black {
-  height: 30px;
-  width: 30px;
+.button-green {
   outline: auto;
   margin: 10px;
-  background-color: black;
+  background-color: green;
   border: black;
   border-radius: 5px;
 }
